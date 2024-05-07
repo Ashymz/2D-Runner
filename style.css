@@ -1,0 +1,14 @@
+@keyframes animatedBackground {
+	from { background-position: 100% 0; }
+	to { background-position: -2000% 0; }
+}
+
+body{ 
+	height: 400px; 
+	background-image: url("CXcV8Yh.png");
+	background-position: 0px 0px, 0px 0px;
+	background-repeat: repeat-x, repeat-x;
+    background-size: auto 500px, auto 500px;
+	animation: animatedBackground 90s linear infinite, animatedBackground 190s linear infinite;
+    background-color: black;
+}
